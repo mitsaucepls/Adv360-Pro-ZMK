@@ -148,13 +148,11 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        /* |         +        [         {        (         &                                                                              =        )        }         ]         *        ! */
-        /* =         !        @         #        $         %                                                                              ^        &        *         (         )        - */
         &ppipe    &pkp_n1  &lkp_n2   &lkp_n3  &lkp_n4   &akp_n5 &tog 1                                                           &mo 3 &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
         &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T  &none                                                          &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F     &kp G  &none            &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL        &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V     &kp B                             &kp HOME &kp PG_UP                        &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &dgrave  &ggrave   &none &none                &kp ENTER   &kp SPACE &kp END  &kp PG_DN &kp BSPC &kp DEL            &none   &none       &kp MINUS  &acaret  &mo 2
+        &mo 2     &kp GRAVE &bhash   &none &none                &kp ENTER   &kp SPACE &kp END  &kp PG_DN &kp BSPC &kp DEL            &none   &none       &kp MINUS  &acaret  &mo 2
       >;
     };
     prog_dvorak_layer {
