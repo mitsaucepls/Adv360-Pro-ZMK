@@ -174,7 +174,7 @@
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
         &trans &trans &trans &trans &trans &trans &none                                            &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans &trans &trans &trans &none         &trans &trans &trans &trans        &none &LEFT  &DOWN  &UP    &RIGHT  &trans  &trans
+        &trans &trans &trans &trans &trans &trans &none         &trans &trans &trans &trans        &none &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
         &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
@@ -193,9 +193,9 @@
       display-name = "FnDvorak";
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &tog 1                                           &mo 3 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &trans &trans &trans &trans &trans &trans &none                                            &none &trans &trans &trans &trans  &RIGHT  &trans
-        &trans &trans &trans &trans &trans &trans &none         &trans &trans &trans &trans        &none &trans &LEFT  &trans &trans  &trans  &trans
-        &trans &trans &trans &DOWN  &UP    &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans &trans &trans &trans &none                                            &none &trans &trans &trans &trans  &kp RIGHT  &trans
+        &trans &trans &trans &trans &trans &trans &none         &trans &trans &trans &trans        &none &trans &kp LEFT  &trans &trans  &trans  &trans
+        &trans &trans &trans &kp DOWN  &kp UP    &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
