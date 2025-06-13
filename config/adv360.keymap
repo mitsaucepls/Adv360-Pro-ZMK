@@ -190,6 +190,7 @@
       status = "reserved";
     };
 
+    extra2 {
       display-name = "Purple";
       status = "reserved";
     };
