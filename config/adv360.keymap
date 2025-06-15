@@ -119,6 +119,13 @@
             bindings = <&kp DLLR>, <&kp GRAVE>;
             mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
         };
+        dtilde: dllr_tilde {
+            compatible = "zmk,behavior-mod-morph";
+            label = "dllr_tilde";
+            #binding-cells = <0>;
+            bindings = <&kp DLLR>, <&kp TILDE>;
+            mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+        };
         ggrave: grave_grave {
             compatible = "zmk,behavior-mod-morph";
             label = "grave_grave";
@@ -148,7 +155,7 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &ppipe    &pkp_n1  &lkp_n2   &lkp_n3  &lkp_n4   &akp_n5 &tog 1                                                           &mo 3 &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
+        &dtilde   &pkp_n1   &lkp_n2  &lkp_n3  &lkp_n4   &akp_n5 &tog 1                                                           &mo 3 &ekp_n6  &rkp_n7  &rkp_n8   &rkp_n9   &skp_n0  &eprcnt
         &kp TAB   &kp Q     &kp W    &kp E    &kp R     &kp T  &none                                                          &none &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F     &kp G  &none            &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL        &none &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V     &kp B                             &kp HOME &kp PG_UP                        &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
